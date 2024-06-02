@@ -9,7 +9,7 @@
         //object 
         // 1. now date we put 
         // 2. inside array we use object to group them together
-        let todoList = [
+        let todoList = JSON.parse(localStorage.getItem('todoList')) || [
             {
                 name:'diwash Sherma',
                 dueDate: '2022-05-15'
@@ -24,7 +24,7 @@
         // const displayTodo= document.querySelector('.container');
         // displayTodo.innerHTML= name;
 
-        todoList= JSON.parse(localStorage.getItem('todoList'));
+        // todoList= JSON.parse(localStorage.getItem('todoList'));
 
         render();
 

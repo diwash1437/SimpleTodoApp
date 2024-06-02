@@ -11,11 +11,11 @@
         // 2. inside array we use object to group them together
         let todoList = [
             {
-                name:'diwash',
+                name:'diwash Sherma',
                 dueDate: '2022-05-15'
             }, //index 0
             {
-                name:'sese',
+                name:'Samjhana Limbu',
                 dueDate: '2022-05-15'
 
             }//index 1
